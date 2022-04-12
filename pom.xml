@@ -160,7 +160,7 @@
     <commons.math3.version>3.6.1</commons.math3.version>
     <!-- managed up from 3.2.1 for SPARK-11652 -->
     <commons.collections.version>4.4</commons.collections.version>
-    <scala.version>2.12.15</scala.version>
+    <scala.version>2.13.8</scala.version>
     <scala.binary.version>2.12</scala.binary.version>
     <scalatest-maven-plugin.version>2.0.2</scalatest-maven-plugin.version>
     <!-- SPARK-36547: This needs to be managed in different profiles to avoid
@@ -3503,7 +3503,7 @@
          SPARK-34774 Add this property to ensure change-scala-version.sh can replace the public `scala.version`
          property correctly.
         -->
-        <scala.version>2.12.15</scala.version>
+        <scala.version>2.13.8</scala.version>
       </properties>
       <build>
         <pluginManagement>
