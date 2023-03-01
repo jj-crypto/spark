@@ -16,7 +16,7 @@
 #
 # We need to build from debian:bullseye-slim because openjdk switches its underlying OS
 # from debian to oraclelinux from openjdk:12
-FROM debian:bullseye-slim
+FROM debian:11.6-slim
 
 ARG spark_uid=185
 
